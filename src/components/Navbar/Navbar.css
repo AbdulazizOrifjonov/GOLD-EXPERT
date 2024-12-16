@@ -1,0 +1,74 @@
+/* Navbar umumiy uslubi */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Uranus va menyuni bo'sh joy bilan ajratish */
+    padding: 20px 0 40px 0 ;
+    align-items: center; /* Vertikal markazlash */
+   
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: gold;
+  }
+  
+  /* Menyu */
+  .nav-links {
+    display: flex; /* Bir qatorda joylashadi */
+    list-style: none;
+    gap: 20px; /* Elementlar orasidagi masofa */
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a.active, .nav-links a:hover {
+    color: #ff6a00;
+  }
+  
+  /* Dropdown menyu */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    margin: 5px 0;
+  }
+  
+  .dropdown-menu a {
+    color: #333;
+    padding: 8px 16px;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #ff6a00;
+    color: white;
+  }
+  
+  /* Media query - Kichik ekranlar uchun */
+  @media (max-width: 768px) {
+   
+  }
+  

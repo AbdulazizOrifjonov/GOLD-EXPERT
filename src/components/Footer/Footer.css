@@ -1,0 +1,107 @@
+/* Umumiy container */
+.footer-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+/* Sarlavha */
+.footer-header {
+  color: #3b3663;
+}
+
+/* Flex layout */
+.footer-stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+/* Progress-bar */
+.progress-bar {
+  background: linear-gradient(to right, #3b3663, #b8b5d3);
+  height: 6px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar-filled {
+  background-color: #3b3663;
+  height: 100%;
+}
+
+.footer-percentage,
+.footer-amount {
+  font-size: 48px;
+  font-weight: bold;
+  color: #3b3663;
+}
+
+.footer-description {
+  color: #3b3663;
+  font-size: 14px;
+}
+
+/* Forma bo'limi */
+.footer-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.footer-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.footer-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.footer-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.footer-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6a5acd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/* Matn bo'limi */
+.footer-text-container {
+  width: 50%;
+  text-align: start;
+}
+
+.footer-text-container h2 {
+  font-size: 24px;
+  color: #3B3663;
+  margin-bottom: 15px;
+}
+
+.footer-text-container p {
+  font-size: 16px;
+  color: #6a5acd;
+  margin-bottom: 10px;
+}
+
+.footer-phone {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}

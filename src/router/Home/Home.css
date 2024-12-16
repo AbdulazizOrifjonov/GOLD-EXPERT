@@ -1,0 +1,116 @@
+.section_1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    /* background-color: #bd8686; */
+    justify-content: space-around; /* flex-end yoki center ham ishlatilishi mumkin */
+ 
+    padding: 20px; /* responsivlik uchun yonlardan bo'sh joy */
+  }
+  
+  .div_right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: #8d7373; */
+     /* o'zgartirish: matnlar orasidagi masofa */
+  }
+  
+  .div_right h1 {
+    font-weight: bold;
+    font-size: 50px; /* o'zgartirish: o'qilishi uchun yaxshiroq o'lcham */
+    color: #3b3663;
+  }
+  
+  .div_right h4 {
+    font-family: none; /* o'zgartirish: umumiy font */
+    font-size: 20px;
+    color: #3b3663;
+  }
+  
+  .div_right p {
+    font-family: none;
+    font-size: 22px; /* o'zgartirish: o'qilishi uchun yaxshiroq o'lcham */
+    color: #3b3663;
+  }
+  
+  .div_right button {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #3b3663;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px; /* o'zgartirish: tugma burchagi yumaloqroq */
+    border: none;
+    cursor: pointer; /* tugma ustiga olib borilganda ko'rsatkichni o'zgartirish */
+    transition: background-color 0.3s ease; /* o'zgartirish: tugma rang o'zgarishi */
+  }
+  
+  .div_right button:hover {
+    background-color: #5e4a8d; /* o'zgartirish: tugma ustiga bosilganda rang */
+  }
+  
+  .div_left {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ 
+}
+.img_owner{
+  width: 90%;
+  height: 200px;
+}
+  
+  .div_left img {
+    width: 100% ;
+    max-width: 400px; /* rasmning maksimal o'lchamini belgilash */
+    height: 500px;
+  }
+  
+
+  .afzalliklar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .afzalliklar-item {
+    flex: 1;
+    margin: 0 1rem;
+    text-align: center;
+  }
+  
+  .afzalliklar-item h2 {
+    font-size: 1.5rem;
+    color: #3b3663;
+    margin-bottom: 0.5rem;
+  }
+  
+  .afzalliklar-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .afzalliklar-item:not(:last-child) {
+    border-right: 1px solid #ddd;
+    padding-right: 1rem;
+
+  }
+  
+  .afzalliklar-item:not(:first-child) {
+    padding-left: 1rem;
+  }
+  
